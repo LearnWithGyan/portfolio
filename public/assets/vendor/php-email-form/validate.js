@@ -64,7 +64,10 @@
     })
     .then(data => {
       thisForm.querySelector('.loading').classList.remove('d-block');
-      if (data.trim() == 'OK') {
+        if (data.trim() == 'OK') {
+            setTimeout(function () {
+                thisForm.querySelector('.sent-message').classList.remove('d-block');
+            },5000)
         thisForm.querySelector('.sent-message').classList.add('d-block');
         thisForm.reset(); 
       } else {
