@@ -35,7 +35,7 @@ function App() {
 
                     <div className="swiper-slide">
                         <div className="testimonial-item">
-                            <img src="assets/img/testimonials/unknown.png" className="testimonial-img" alt=""></img>
+                            <img src={process.env.PUBLIC_URL + "/assets/img/testimonials/unknown.png"} className="testimonial-img" alt=""></img>
                             <h3>SyamBihari Chauhan</h3>
                             <h4>Client</h4>
                             <p>
@@ -48,7 +48,7 @@ function App() {
 
                     <div className="swiper-slide">
                         <div className="testimonial-item">
-                            <img src="assets/img/testimonials/unknown.png" className="testimonial-img" alt=""></img>
+                            <img src={process.env.PUBLIC_URL + "/assets/img/testimonials/unknown.png"} className="testimonial-img" alt=""></img>
                             <h3>Himanshu Seth</h3>
                             <h4>Sr. Advocate</h4>
                             <p>
@@ -61,7 +61,7 @@ function App() {
 
                     <div className="swiper-slide">
                         <div className="testimonial-item">
-                            <img src="assets/img/testimonials/unknown.png" className="testimonial-img" alt=""></img>
+                            <img src={process.env.PUBLIC_URL + "/assets/img/testimonials/unknown.png"} className="testimonial-img" alt=""></img>
                             <h3>Sachin Kumar</h3>
                             <h4>Client</h4>
                             <p>
@@ -74,7 +74,7 @@ function App() {
 
                     <div className="swiper-slide">
                         <div className="testimonial-item">
-                            <img src="assets/img/testimonials/unknown.png" className="testimonial-img" alt=""></img>
+                            <img src={process.env.PUBLIC_URL + "/assets/img/testimonials/unknown.png"} className="testimonial-img" alt=""></img>
                             <h3>ईद्दू खान</h3>
                             <h4>ग्राहक</h4>
                             <p>
@@ -86,7 +86,7 @@ function App() {
                     </div>
                     <div className="swiper-slide">
                         <div className="testimonial-item">
-                            <img src="assets/img/testimonials/unknown.png" className="testimonial-img" alt=""></img>
+                            <img src={process.env.PUBLIC_URL + "/assets/img/testimonials/unknown.png"} className="testimonial-img" alt=""></img>
                             <h3>विपिन तिवारी</h3>
                             <h4>ग्राहक</h4>
                             <p>
