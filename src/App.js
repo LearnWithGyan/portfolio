@@ -24,88 +24,88 @@ function App() {
           <About/>
           <Services/>
           <section id="testimonials" className="testimonials section-bg">
-      <div className="container" data-aos="fade-up">
+            <div className="container" data-aos="fade-up">
 
-        <div className="section-title">
-          <h2>Testimonials/Feedbacks</h2>
-        </div>
-
-        <div className="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-          <div className="swiper-wrapper">
-
-            <div className="swiper-slide">
-              <div className="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-1.jpg" className="testimonial-img" alt=""></img>
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
-                <p>
-                  <i className="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                  <i className="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
+            <div className="section-title">
+                <h2>Feedbacks</h2>
             </div>
 
-            <div className="swiper-slide">
-              <div className="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-2.jpg" className="testimonial-img" alt=""></img>
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
-                <p>
-                  <i className="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                  <i className="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
+            <div className="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+                <div className="swiper-wrapper">
+
+                    <div className="swiper-slide">
+                        <div className="testimonial-item">
+                            <img src={process.env.PUBLIC_URL + "/assets/img/testimonials/unknown.png"} className="testimonial-img" alt=""></img>
+                            <h3>SyamBihari Chauhan</h3>
+                            <h4>Client</h4>
+                            <p>
+                                <i className="bx bxs-quote-alt-left quote-icon-left"></i>
+                                Ashish Sir, is the best criminal advocate in Allahabad High Court, he got us relief in many cases.
+                                <i className="bx bxs-quote-alt-right quote-icon-right"></i>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="swiper-slide">
+                        <div className="testimonial-item">
+                            <img src={process.env.PUBLIC_URL + "/assets/img/testimonials/unknown.png"} className="testimonial-img" alt=""></img>
+                            <h3>Himanshu Seth</h3>
+                            <h4>Sr. Advocate</h4>
+                            <p>
+                                <i className="bx bxs-quote-alt-left quote-icon-left"></i>
+                                He is a good person, he listens to you properly and after that gives a proper advice. He helped me to get back my purchased home from the Bank.
+                                <i className="bx bxs-quote-alt-right quote-icon-right"></i>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="swiper-slide">
+                        <div className="testimonial-item">
+                            <img src={process.env.PUBLIC_URL + "/assets/img/testimonials/unknown.png"} className="testimonial-img" alt=""></img>
+                            <h3>Sachin Kumar</h3>
+                            <h4>Client</h4>
+                            <p>
+                                <i className="bx bxs-quote-alt-left quote-icon-left"></i>
+                                I and my two brothers were stressed because of some false cases levelled against us, we have contacted sir and he helped us to get rid of the case. I suggest everyone who is looking for legal help in Allahabad, kindly contact him.
+                                <i className="bx bxs-quote-alt-right quote-icon-right"></i>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="swiper-slide">
+                        <div className="testimonial-item">
+                            <img src={process.env.PUBLIC_URL + "/assets/img/testimonials/unknown.png"} className="testimonial-img" alt=""></img>
+                            <h3>ईद्दू खान</h3>
+                            <h4>ग्राहक</h4>
+                            <p>
+                                <i className="bx bxs-quote-alt-left quote-icon-left"></i>
+                                वह बहुत नेक इंसान हैं. हमारे परिवार के पास मेरा केस लड़ने के लिए पर्याप्त पैसे नहीं थे लेकिन उन्होंने बहुत ही कम फीस पर हमारा केस लड़ा और हमें राहत दिलाएं.
+                                <i className="bx bxs-quote-alt-right quote-icon-right"></i>
+                            </p>
+                        </div>
+                    </div>
+                    <div className="swiper-slide">
+                        <div className="testimonial-item">
+                            <img src={process.env.PUBLIC_URL + "/assets/img/testimonials/unknown.png"} className="testimonial-img" alt=""></img>
+                            <h3>विपिन तिवारी</h3>
+                            <h4>ग्राहक</h4>
+                            <p>
+                                <i className="bx bxs-quote-alt-left quote-icon-left"></i>
+                                मेरा चयन पुलिस विभाग में हो गया है लेकिन विभाग मुझे ट्रेनिंग के लिए नहीं भेज रहा था, उस समय सर ने कानूनी सलाह देकर मेरी मदद की।
+                                <i className="bx bxs-quote-alt-right quote-icon-right"></i>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div className="swiper-pagination"></div>
             </div>
 
-            <div className="swiper-slide">
-              <div className="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-3.jpg" className="testimonial-img" alt=""></img>
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
-                <p>
-                  <i className="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                  <i className="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
             </div>
-
-            <div className="swiper-slide">
-              <div className="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-4.jpg" className="testimonial-img" alt=""></img>
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
-                <p>
-                  <i className="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                  <i className="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-            </div>
-            <div className="swiper-slide">
-              <div className="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-5.jpg" className="testimonial-img" alt=""></img>
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
-                <p>
-                  <i className="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                  <i className="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-            </div>
-
-          </div>
-          <div className="swiper-pagination"></div>
-        </div>
-
-      </div>
-    </section>
+          </section>
           <Contact/>
         </main>
-    </div>
+        </div>
   );
 }
 
